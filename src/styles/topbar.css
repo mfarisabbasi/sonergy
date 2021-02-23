@@ -1,0 +1,42 @@
+.topbar {
+  background-color: black;
+  min-height: 5vh;
+  padding: 15px;
+}
+.topbar1 {
+}
+.topbar1 span {
+  color: white;
+  font-weight: bold;
+}
+.topbar1 i {
+  color: #ff9304;
+}
+.topbar2 {
+}
+.topbar2 span {
+  padding-left: 15px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+.topbar2 span:hover {
+  color: #ff9304;
+}
+.topbar3 {
+}
+.topbar3 span {
+  padding-left: 10px;
+}
+.topbar3 span i {
+  color: rgb(151, 151, 151);
+  cursor: pointer;
+}
+.topbar3 span i:hover {
+  color: #ff9304;
+}
+@media screen and (max-width: 992px) {
+  .topbar {
+    display: none;
+  }
+}

@@ -1,0 +1,39 @@
+.section5 {
+  margin: 10rem 0;
+  background-color: black;
+  width: 100%;
+  left: 0;
+  padding: 30px;
+}
+.section5 h1 {
+  font-weight: bold;
+  color: white;
+  padding: 25px;
+}
+.section5 h1 span {
+  color: #ff9304;
+}
+.feedback-box {
+  background-color: white;
+  padding: 20px;
+  transition: transform 0.4s;
+}
+.feedback-box:hover {
+  transform: scale(1.1);
+}
+.feedback-box h5 {
+  color: black;
+  font-weight: bold;
+}
+.feedback-box span {
+  color: #ff9304;
+  font-weight: bold;
+}
+@media screen and (max-width: 992px) {
+  .feedback-box {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    transition: transform 0.4s;
+  }
+}

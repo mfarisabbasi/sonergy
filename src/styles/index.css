@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+
+:root {
+  --primary: #ff9304;
+  --secondary: #333366;
+  --error: #c31432;
+}
+
+body {
+  font-family: "Nunito Sans", "sans-serif";
+}

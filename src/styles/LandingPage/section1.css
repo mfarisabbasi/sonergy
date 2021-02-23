@@ -1,0 +1,91 @@
+.section1 {
+  margin: 1rem 0 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  overflow: hidden;
+}
+.section1 img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  opacity: 0.3;
+}
+.text-block {
+  position: absolute;
+  margin: 0 0 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-block h1 {
+  color: white;
+  font-weight: bold;
+  margin-top: 10rem;
+  text-align: center;
+}
+.text-block h4 {
+  color: white !important;
+  text-align: center;
+  font-weight: bold;
+}
+.section1-btn {
+  background-color: #ff9304;
+  width: 25%;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.section1-btn:hover {
+  animation-name: btn;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+  color: #ff9304;
+}
+@keyframes btn {
+  from {
+    background-color: #ff9304;
+  }
+  to {
+    background-color: white;
+  }
+}
+@media screen and (max-width: 992px) {
+  .section1 {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: black;
+    overflow: hidden;
+  }
+  .section1-btn {
+    background-color: #ff9304;
+    width: 50%;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section1-btn {
+    background-color: #ff9304;
+    width: 60%;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,41 @@
+.section3 {
+  margin: 12rem 0 5rem 0;
+}
+.section3 h1 {
+  font-weight: bold;
+}
+.section3 span {
+  color: #ff9304;
+}
+.img {
+  filter: grayscale(0.4);
+  border-radius: 20px;
+  opacity: 0.6;
+  transition: opacity 0.4s;
+  width: 500px;
+  height: 400px;
+}
+.img:hover {
+  opacity: 1;
+}
+.text-block2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-block2 h4 {
+  color: black !important;
+  font-weight: bold;
+}
+@media screen and (max-width: 992px) {
+  .img {
+    filter: grayscale(0.4);
+    border-radius: 20px;
+    opacity: 0.6;
+    transition: opacity 0.4s;
+    width: 500px;
+    height: 400px;
+    margin-top: 15px;
+  }
+}
