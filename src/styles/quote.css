@@ -1,0 +1,26 @@
+.quote {
+  display: none;
+}
+.quote div {
+  cursor: pointer;
+  font-weight: bold;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 10vh;
+  width: 100%;
+  background-color: #ff9304;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote div h5 {
+  font-size: 1.4rem;
+  color: white;
+  font-weight: bold;
+}
+@media screen and (max-width: 992px) {
+  .quote {
+    display: block;
+  }
+}

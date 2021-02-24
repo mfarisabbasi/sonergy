@@ -5,6 +5,7 @@ import { Route } from "react-router-dom";
 import LandingPage from "./screens/LandingPage";
 
 import Footer from "./comps/Footer";
+import GetAQuote from "./comps/GetAQuote";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Header />
       <Route path="/" component={LandingPage} />
       <Footer />
+      <GetAQuote />
     </div>
   );
 };

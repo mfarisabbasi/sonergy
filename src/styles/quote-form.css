@@ -1,0 +1,72 @@
+.quote-form {
+  display: none;
+}
+.quote-form h2 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.quote-form form {
+  background-color: #ff9304;
+  width: 100%;
+  padding: 50px;
+  transform: translateY(20%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.quote-form-close {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: white;
+  cursor: pointer;
+}
+.quote-form-input {
+  width: 80% !important;
+  margin: 1px !important;
+  padding: 10px !important;
+  color: ff9304;
+  box-sizing: border-box !important;
+  border: 3px solid #ccc !important;
+  outline: none !important;
+}
+select {
+  width: 80%;
+  margin: 1px;
+  padding: 10px;
+  color: ff9304;
+  box-sizing: border-box;
+  background-color: white;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+input:focus {
+  border: 3px solid white;
+}
+::placeholder {
+  color: rgb(141, 141, 141);
+}
+input[type="submit"] {
+  background-color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  margin-top: 10px;
+  border-radius: 15px;
+  color: #ff9304;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.4s;
+}
+input[type="submit"]:hover {
+  background-color: #ff9304;
+  color: white;
+}
+@media screen and (max-width: 992px) {
+  .quote-form {
+    display: block;
+  }
+}
