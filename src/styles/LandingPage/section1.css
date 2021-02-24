@@ -1,5 +1,5 @@
 .section1 {
-  margin: 1rem 0 5rem 0;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,16 +14,16 @@
 }
 .text-block {
   position: absolute;
-  margin: 0 0 5rem 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: center;
 }
 .text-block h1 {
   color: white;
   font-weight: bold;
-  margin-top: 10rem;
+
   text-align: center;
 }
 .text-block h4 {

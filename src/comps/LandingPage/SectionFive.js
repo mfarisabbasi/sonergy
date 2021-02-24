@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { BsStarHalf } from "react-icons/bs";
 import "../../styles/LandingPage/section5.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const SectionFive = () => {
+  useEffect(() => {
+    Aos.init({});
+  }, []);
   return (
-    <Container fluid className="section5">
+    <Container
+      data-aos-duration="1000"
+      data-aos="slide-up"
+      fluid
+      className="section5"
+    >
       <Row>
         <Col
           className="text-sm-center text-xs-center text-md-center text-lg-left text-xl-left"

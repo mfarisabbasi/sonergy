@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row, Carousel } from "react-bootstrap";
 import "../../styles/LandingPage/section7.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const SectionSeven = () => {
+  useEffect(() => {
+    Aos.init({});
+  }, []);
   return (
-    <Container fluid>
+    <Container data-aos="fade-down" data-aos-duration="1000" fluid>
       <div className="section7">
         <Row>
           <Col className="text-center text-md-center text-lg-left text-xl-left">

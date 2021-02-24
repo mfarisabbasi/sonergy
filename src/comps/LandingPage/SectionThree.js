@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import "../../styles/LandingPage/section3.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const SectionThree = () => {
+  useEffect(() => {
+    Aos.init({});
+  }, []);
+
   return (
-    <Container>
+    <Container data-aos-duration="1000" data-aos="zoom-in">
       <div className="section3">
         <Row>
           <Col className="text-center" lg={12}>

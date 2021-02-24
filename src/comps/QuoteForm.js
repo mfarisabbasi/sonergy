@@ -1,11 +1,22 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { motion } from "framer-motion";
 import "../styles/quote-form.css";
 
 const QuoteForm = ({ setShowForm }) => {
   return (
     <Container>
-      <div className="quote-form">
+      <motion.div
+        className="quote-form"
+        initial={{
+          opacity: 0,
+        }}
+        animate={{ opacity: 1 }}
+        transition={{ ease: "linear", duration: 0.4 }}
+        exit={{
+          opacity: 0,
+        }}
+      >
         <Row>
           <Col className="text-center">
             <form>
@@ -47,7 +58,7 @@ const QuoteForm = ({ setShowForm }) => {
             </form>
           </Col>
         </Row>
-      </div>
+      </motion.div>
     </Container>
   );
 };

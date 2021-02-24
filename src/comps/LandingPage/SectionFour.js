@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import {
   RiTeamFill,
@@ -6,10 +6,15 @@ import {
   RiThumbUpFill,
 } from "react-icons/ri";
 import "../../styles/LandingPage/section4.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const SectionFour = () => {
+  useEffect(() => {
+    Aos.init({});
+  }, []);
   return (
-    <Container>
+    <Container data-aos-duration="1000" data-aos="zoom-out">
       <div className="section4">
         <Row>
           <Col className="text-center" lg={12}>

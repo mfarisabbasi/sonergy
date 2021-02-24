@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "../../styles/LandingPage/section6.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const SectionSix = () => {
+  useEffect(() => {
+    Aos.init({});
+  }, []);
   return (
-    <Container>
+    <Container data-aos="fade-left" data-aos-duration="1000">
       <div className="section6">
         <Row>
           <Col className="text-center">
