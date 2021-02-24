@@ -42,10 +42,12 @@ const Header = () => {
     <Container fluid>
       <nav>
         <div className="logo">
-          <img
-            src="https://res.cloudinary.com/dvwcygw04/image/upload/v1613673945/Sonergy/logo_hssbmk.webp"
-            alt="sonergy"
-          ></img>
+          <a href="/">
+            <img
+              src="https://res.cloudinary.com/dvwcygw04/image/upload/v1613673945/Sonergy/logo_hssbmk.webp"
+              alt="sonergy"
+            ></img>
+          </a>
         </div>
         <ul className="navbar-links">
           <li>
