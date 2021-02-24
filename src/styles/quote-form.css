@@ -50,7 +50,7 @@ input:focus {
 ::placeholder {
   color: rgb(141, 141, 141);
 }
-input[type="submit"] {
+.quote-form-btn {
   background-color: white;
   padding: 10px 20px;
   border: 1px solid white;
@@ -61,7 +61,7 @@ input[type="submit"] {
   text-align: center;
   transition: background-color 0.4s;
 }
-input[type="submit"]:hover {
+.quote-form-btn:hover {
   background-color: #ff9304;
   color: white;
 }

@@ -9,4 +9,12 @@ const ButtonLoader = () => {
   );
 };
 
+export const QuoteFormLoader = () => {
+  return (
+    <>
+      <span className="quote-form-loader"></span>
+    </>
+  );
+};
+
 export default ButtonLoader;

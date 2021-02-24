@@ -8,6 +8,17 @@
   animation: 2s spin infinite ease-in-out;
 }
 
+.quote-form-loader {
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  border: 3px solid #ff9304;
+  margin-top: 15px;
+  border-radius: 50%;
+  border-top-color: white;
+  animation: 2s spin infinite ease-in-out;
+}
+
 @keyframes spin {
   to {
     transform: rotate(360deg);
