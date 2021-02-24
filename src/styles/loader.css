@@ -1,0 +1,15 @@
+.button-loader {
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  border-top-color: #ff9304;
+  animation: 2s spin infinite ease-in-out;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
