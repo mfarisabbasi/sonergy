@@ -10,3 +10,12 @@
 body {
   font-family: "Nunito Sans", "sans-serif";
 }
+a {
+  color: var(--primary);
+  font-weight: bold;
+  transition: color 0.4s;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}

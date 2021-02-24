@@ -67,6 +67,16 @@
   font-weight: bold;
   padding-top: 10px;
 }
+.footer-bottom {
+  border-top: 1px solid rgb(233, 233, 233);
+}
+.footer-bottom p {
+  padding-top: 10px;
+}
+.footer-bottom p span {
+  color: #ff9304;
+  font-weight: bold;
+}
 @media screen and (max-width: 992px) {
   .footer-useful ul li {
     cursor: pointer;
