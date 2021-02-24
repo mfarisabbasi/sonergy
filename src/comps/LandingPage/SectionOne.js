@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/LandingPage/section1.css";
 
 const SectionOne = () => {
@@ -11,7 +12,10 @@ const SectionOne = () => {
       <div className="text-block">
         <h1>Think Smart, Think about Future</h1>
         <h4>Start Using Sonergy And Save More</h4>
-        <span className="section1-btn">Contact Us</span>
+        <br />
+        <Link to="/contact-us">
+          <span className="section1-btn">Contact Us</span>
+        </Link>
       </div>
     </div>
   );

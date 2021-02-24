@@ -57,7 +57,9 @@ textarea {
 textarea:focus {
   border: 3px solid #ff9304;
 }
-input:focus {
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="text"]:focus {
   border: 3px solid #ff9304;
 }
 ::placeholder {

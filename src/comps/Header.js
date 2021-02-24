@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row, Navbar, Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+import { Link } from "react-router-dom";
 import "../styles/header.css";
 
 const Header = () => {
@@ -71,7 +72,9 @@ const Header = () => {
             </LinkContainer>
           </li>
         </ul>
-        <div className="navbar-btn">Get A Free Quote</div>
+        <Link to="/contact-us">
+          <div className="navbar-btn">Get A Free Quote</div>
+        </Link>
         <div onClick={navSlide} className="burger">
           <div className="line1"></div>
           <div className="line2"></div>
