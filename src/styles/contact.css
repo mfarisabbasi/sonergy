@@ -11,6 +11,7 @@
 .contact-row {
   background-color: #ff9304;
   border-radius: 12px;
+  margin-bottom: 10rem;
 }
 .contact-form {
   width: 80% !important;
@@ -33,6 +34,18 @@
 }
 .contact-form-btn {
   width: 80%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 5px;
+  border: 1px solid white;
+  background-color: white;
+  font-weight: bold;
+  color: #ff9304;
+  transition: background-color 0.4s;
+}
+.contact-form-btn:hover {
+  background-color: #ff9304;
+  color: white !important;
 }
 .contact-l {
   padding: 25px;
