@@ -14,7 +14,7 @@ const SectionFour = () => {
     Aos.init({});
   }, []);
   return (
-    <Container data-aos-duration="1000" data-aos="zoom-out">
+    <Container data-aos-duration="1000" data-aos="fade">
       <div className="section4">
         <Row>
           <Col className="text-center" lg={12}>

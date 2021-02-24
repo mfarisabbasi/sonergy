@@ -9,7 +9,7 @@ const SectionSix = () => {
     Aos.init({});
   }, []);
   return (
-    <Container data-aos="fade-left" data-aos-duration="1000">
+    <Container data-aos-duration="1000" data-aos="fade">
       <div className="section6">
         <Row>
           <Col className="text-center">
