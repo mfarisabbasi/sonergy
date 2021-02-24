@@ -50,19 +50,14 @@
     margin: 0 10rem 0 10rem;
   }
   .box {
-    border: 1px solid #ff9304;
-    padding: 25px;
-    max-width: 350px;
-    transition: transform 0.4s;
-    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .box-middle {
-    background-color: #ff9304;
-    border: 1px solid #ff9304;
-    padding: 25px;
-    max-width: 350px;
-    margin-top: 15px;
-    transition: transform 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media screen and (max-width: 768px) {
@@ -70,18 +65,13 @@
     margin: 0 5rem 0 5rem;
   }
   .box {
-    border: 1px solid #ff9304;
-    padding: 25px;
-    max-width: 350px;
-    transition: transform 0.4s;
-    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .box-middle {
-    background-color: #ff9304;
-    border: 1px solid #ff9304;
-    padding: 25px;
-    max-width: 350px;
-    margin-top: 15px;
-    transition: transform 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
