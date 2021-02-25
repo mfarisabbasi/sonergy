@@ -73,6 +73,9 @@
 .footer-bottom p {
   padding-top: 10px;
 }
+.footer-bottom-a {
+  color: rgb(143, 143, 143);
+}
 .footer-bottom p span {
   color: #ff9304;
   font-weight: bold;

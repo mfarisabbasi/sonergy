@@ -70,13 +70,13 @@ const Footer = () => {
                   <span>______</span>
                   <h6>Phone & Email</h6>
                   <p>
-                    +324-123-45-978
-                    <br /> supportteam@wireman.com
+                    +61-0434130177
+                    <br /> contact@sonergy.com.au
                   </p>
                   <h6>Working Hours</h6>
                   <p>
-                    Mon - Satday: 9.00am to 6.00pm <br />
-                    Sunday: Holiday
+                    Mon - Fri: 9.00am to 5.00pm <br />
+                    Sat,Sun: Holiday
                   </p>
                 </div>
               </Col>
@@ -89,7 +89,14 @@ const Footer = () => {
           <Row>
             <Col className="text-center">
               <p>
-                Copyrights &copy; 2021 Developed By{" "}
+                &copy; Copyrights 2021 <span>SONERGY.</span> All Rights Reserved{" "}
+                <br />
+                ABN 78 191 155 326{" "}
+                <a className="footer-bottom-a" href="/">
+                  | Privacy Policy |
+                </a>{" "}
+                <br />
+                Developed By{" "}
                 <span>
                   <a href="https://thenovustech.com/" target="no_blank">
                     TheNovusTech

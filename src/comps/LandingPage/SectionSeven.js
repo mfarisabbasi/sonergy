@@ -13,9 +13,7 @@ const SectionSeven = () => {
       <div className="section7">
         <Row>
           <Col className="text-center text-md-center text-lg-left text-xl-left">
-            <h1>
-              PARTNERS & <span>CLIENTS</span>
-            </h1>
+            <h1>PARTNERS</h1>
           </Col>
         </Row>
         <Row>

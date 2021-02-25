@@ -52,7 +52,7 @@ const SectionFour = () => {
                 <RiThumbUpFill size={50} color={"#ff9304"} />
               </div>
               <h3>Start Your Project</h3>
-              <p>Here We Can Start Your Project As Your Plan.</p>
+              <p>Here We Can Start Your Project As Per Your Plan.</p>
             </div>
           </Col>
         </Row>

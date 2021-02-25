@@ -16,7 +16,7 @@
 }
 .box h6 {
   font-size: 1.4rem;
-  color: rgb(87, 87, 87);
+  color: black;
 }
 .box:hover {
   transform: scale(1.08);

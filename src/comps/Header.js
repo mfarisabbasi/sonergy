@@ -62,13 +62,13 @@ const Header = () => {
             </LinkContainer>
           </li>
           <li>
-            <LinkContainer to="/led">
-              <p>LED</p>
+            <LinkContainer to="/solar-system">
+              <p>Solar System</p>
             </LinkContainer>
           </li>
           <li>
-            <LinkContainer to="/contact-us">
-              <p>Contact Us</p>
+            <LinkContainer to="/led-lighting">
+              <p>LED</p>
             </LinkContainer>
           </li>
         </ul>
