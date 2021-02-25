@@ -1,0 +1,16 @@
+.ledlighting {
+  margin: 5rem 0 10rem 0;
+}
+.ledlighting h1 {
+  font-weight: bold;
+}
+.ledlighting span {
+  font-weight: bold;
+  color: #ff9304;
+}
+.ledlighting-content {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  padding: 25px;
+  box-shadow: 5px 10px 8px 10px #c4c4c4;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "../styles/footer.css";
 
 const Footer = () => {
@@ -50,10 +51,18 @@ const Footer = () => {
                   <h5>USEFUL LINKS</h5>
                   <span>______</span>
                   <ul>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Solar Solutions</li>
-                    <li>LED Lighting</li>
+                    <li>
+                      <a href="/about-us">About Us</a>
+                    </li>
+                    <li>
+                      <a href="/contact-us">Contact Us</a>
+                    </li>
+                    <li>
+                      <a href="/solar-systems">Solar System</a>
+                    </li>
+                    <li>
+                      <a href="/led-lighting">LED Lighting</a>
+                    </li>
                   </ul>
                 </div>
               </Col>
@@ -70,8 +79,8 @@ const Footer = () => {
                   <span>______</span>
                   <h6>Phone & Email</h6>
                   <p>
-                    +61-0434130177
-                    <br /> contact@sonergy.com.au
+                    +61-434130177
+                    <br /> info@sonergy.com.au
                   </p>
                   <h6>Working Hours</h6>
                   <p>

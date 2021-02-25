@@ -22,6 +22,17 @@ const Header = () => {
     }
   };
 
+  const closeOnClick = (e) => {
+    e.preventDefault();
+
+    const nav = document.querySelector(".navbar-links");
+
+    if (navOpened === true) {
+      nav.classList.remove("navbar-active");
+      setNavOpened(false);
+    }
+  };
+
   useEffect(() => {
     if (navOpened) {
       var prevScrollPos = window.pageYOffset;
@@ -50,7 +61,7 @@ const Header = () => {
             ></img>
           </a>
         </div>
-        <ul className="navbar-links">
+        <ul onClick={closeOnClick} className="navbar-links">
           <li>
             <LinkContainer to="/">
               <p>Home</p>

@@ -14,7 +14,7 @@ const LandingPage = () => {
       <SectionTwo />
       <SectionThree />
       <SectionFour />
-      <SectionFive />
+      {/* <SectionFive /> */}
       <SectionSix />
       <SectionSeven />
     </div>

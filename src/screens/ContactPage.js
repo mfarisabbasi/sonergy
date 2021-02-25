@@ -143,16 +143,16 @@ const ContactPage = () => {
             <h4>CONTACT DETAILS</h4>
             <span>________</span>
             <p>
-              Phone & Email +324-123-45-978 <br />
-              supportteam@wireman.com
+              Phone & Email +61-434130177 <br />
+              info@sonergy.com.au
             </p>
           </div>
           <div>
             <h4>Working Hours</h4>
             <span>________</span>
             <p>
-              Mon - Satday: 9.00am to 6.00pm <br />
-              Sunday: Holiday
+              Mon - Friday: 9.00am to 5.00pm <br />
+              Sat,Sun: Holiday
             </p>
           </div>
         </Col>

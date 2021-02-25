@@ -11,7 +11,7 @@ body {
   font-family: "Nunito Sans", "sans-serif";
 }
 a {
-  color: var(--primary);
+  color: #212529;
   font-weight: bold;
   transition: color 0.4s;
 }

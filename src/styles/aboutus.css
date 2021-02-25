@@ -1,0 +1,16 @@
+.aboutus {
+  margin: 5rem 0 10rem 0;
+}
+.aboutus h1 {
+  font-weight: bold;
+}
+.aboutus span {
+  font-weight: bold;
+  color: #ff9304;
+}
+.aboutus-content {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  padding: 25px;
+  box-shadow: 5px 10px 8px 10px #c4c4c4;
+}
