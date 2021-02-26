@@ -8,6 +8,7 @@ import AboutUsPage from "./screens/AboutUsPage";
 import LedLightingPage from "./screens/LedLightingPage";
 import Footer from "./comps/Footer";
 import GetAQuote from "./comps/GetAQuote";
+import NotFoundPage from "./screens/NotFoundPage";
 
 const App = () => {
   return (
@@ -15,10 +16,11 @@ const App = () => {
       <TopBar />
       <Header />
       <Switch>
+        <Route path="/" component={LandingPage} exact />
         <Route path="/contact-us" component={ContactPage} />
         <Route path="/about-us" component={AboutUsPage} />
         <Route path="/led-lighting" component={LedLightingPage} />
-        <Route path="/" component={LandingPage} />
+        <Route path="*" component={NotFoundPage} />
       </Switch>
       <Footer />
       <GetAQuote />
