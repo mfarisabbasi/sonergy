@@ -15,12 +15,12 @@ const Footer = () => {
                 xs={12}
                 sm={12}
                 md={12}
-                lg={6}
-                xl={6}
+                lg={4}
+                xl={4}
               >
                 <div className="footer-logo">
                   <img
-                    src="https://res.cloudinary.com/dvwcygw04/image/upload/v1613673945/Sonergy/logo_hssbmk.webp"
+                    src="https://res.cloudinary.com/dvwcygw04/image/upload/v1614334545/Sonergy/mainLogo_tpqyso.webp"
                     alt="sonergy"
                   ></img>
                 </div>
@@ -40,12 +40,12 @@ const Footer = () => {
                 </div>
               </Col>
               <Col
-                className="text-center text-lg-left text-xl-left"
+                className="text-center "
                 xs={12}
                 sm={12}
                 md={12}
-                lg={3}
-                xl={3}
+                lg={4}
+                xl={4}
               >
                 <div className="footer-useful">
                   <h5>USEFUL LINKS</h5>
@@ -67,12 +67,12 @@ const Footer = () => {
                 </div>
               </Col>
               <Col
-                className="text-center text-lg-left text-xl-left"
+                className="text-center"
                 xs={12}
                 sm={12}
                 md={12}
-                lg={3}
-                xl={3}
+                lg={4}
+                xl={4}
               >
                 <div className="footer-useful2">
                   <h5>Contact Details</h5>
