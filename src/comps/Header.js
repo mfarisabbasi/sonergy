@@ -56,7 +56,7 @@ const Header = () => {
         <div className="logo">
           <a href="/">
             <img
-              src="https://res.cloudinary.com/dvwcygw04/image/upload/v1613673945/Sonergy/logo_hssbmk.webp"
+              src="https://res.cloudinary.com/dvwcygw04/image/upload/v1614334545/Sonergy/mainLogo_tpqyso.webp"
               alt="sonergy"
             ></img>
           </a>

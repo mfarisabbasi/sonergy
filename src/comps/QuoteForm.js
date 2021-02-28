@@ -157,6 +157,15 @@ const QuoteForm = ({ setShowForm }) => {
                   Get A Free Quote
                 </button>
               )}
+              <div className="form-text">
+                <p>
+                  By filling this form you acknowledge that you have read the
+                  <span>
+                    <a href="/privacy-policy"> Privacy policy</a>
+                  </span>
+                  , and you agree with them
+                </p>
+              </div>
             </form>
           </Col>
         </Row>
