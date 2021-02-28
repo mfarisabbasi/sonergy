@@ -94,16 +94,16 @@ nav {
   }
   .navbar-links {
     position: fixed;
-    right: 0px;
+    right: 0;
     height: 80vh;
     width: 65%;
-    top: 12vh;
+    top: 14vh;
     background-color: #ff9304;
     border-top: solid 1px rgb(235, 235, 235);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    text-align: center;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
@@ -112,6 +112,7 @@ nav {
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
     transition: ease;
+    margin-right: 20px;
   }
   .navbar-links p {
     color: white;
