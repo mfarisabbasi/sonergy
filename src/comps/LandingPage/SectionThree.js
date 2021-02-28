@@ -43,6 +43,7 @@ const SectionThree = () => {
           </Col>
         </Row>
       </div>
+      <hr />
     </Container>
   );
 };

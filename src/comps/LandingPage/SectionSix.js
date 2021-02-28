@@ -136,6 +136,7 @@ const SectionSix = () => {
           </Col>
         </Row>
       </div>
+      <hr />
     </Container>
   );
 };

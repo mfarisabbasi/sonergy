@@ -96,13 +96,14 @@ nav {
     position: fixed;
     right: 0px;
     height: 80vh;
-    width: 100%;
+    width: 65%;
     top: 12vh;
-    background-color: white;
+    background-color: #ff9304;
     border-top: solid 1px rgb(235, 235, 235);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
@@ -113,9 +114,13 @@ nav {
     transition: ease;
   }
   .navbar-links p {
-    color: black;
-    margin-top: 0;
-    padding-top: 50px;
+    color: white;
+    margin: 0;
+    padding: 50px 30px;
+    border-bottom: 1px solid white;
+  }
+  .navbar-links p:hover {
+    color: rgb(211, 211, 211);
   }
   .burger {
     display: block;

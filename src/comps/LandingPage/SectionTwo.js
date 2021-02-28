@@ -32,6 +32,7 @@ const SectionTwo = () => {
           </Col>
         </Row>
       </div>
+      <hr />
     </Container>
   );
 };

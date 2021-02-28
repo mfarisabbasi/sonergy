@@ -67,6 +67,7 @@ const SectionFive = () => {
           </div>
         </Col>
       </Row>
+      <hr />
     </Container>
   );
 };
