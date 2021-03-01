@@ -1,0 +1,43 @@
+.solarsystem {
+  margin: 5rem 0 10rem 0;
+}
+.solarbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #ff9304;
+}
+.solarbox-middle {
+  transform: scale(1.1);
+}
+.solarbox h2 {
+  color: white;
+  font-weight: bold;
+}
+.solarbox span {
+  font-weight: bold;
+  color: white;
+}
+.icon {
+  background-color: white;
+  border: 5px solid black;
+  padding: 25px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.solarbox button {
+  background-color: white;
+  padding: 10px 20px;
+  color: #ff9304;
+  border: 1px solid #ff9304;
+  font-weight: bold;
+  border-radius: 15px;
+  transition: background-color 0.4s, color 0.4s, border 0.4s;
+}
+.solarbox button:hover {
+  background-color: #ff9304;
+  color: white;
+  border: 1px solid white;
+}
