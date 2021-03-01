@@ -17,8 +17,8 @@ const QuoteForm = ({ setShowForm }) => {
   const submitHandler = async (e) => {
     e.preventDefault();
     setLoading(true);
-    if (!name || !email || !number || !story || !size) {
-      cogoToast.error("Please fill out all the fields", {
+    if (!name || !email || !number) {
+      cogoToast.error("Please fill out all required fields", {
         position: "top-center",
         hideAfter: 6,
       });
@@ -136,7 +136,7 @@ const QuoteForm = ({ setShowForm }) => {
                 value={story}
                 onChange={(e) => setStory(e.target.value)}
               >
-                <option value="">Select Story (required)</option>
+                <option value="">Select Story </option>
                 <option value="singlestory">Single Story</option>
                 <option value="doublestory">Double Story</option>
               </select>
@@ -145,7 +145,7 @@ const QuoteForm = ({ setShowForm }) => {
                 value={size}
                 onChange={(e) => setSize(e.target.value)}
               >
-                <option value="">Select Size (required)</option>
+                <option value="">Select Size </option>
                 <option value="6.6kw">6.6kw</option>
                 <option value="9.9kw">9.9kw</option>
               </select>
