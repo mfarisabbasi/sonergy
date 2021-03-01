@@ -63,6 +63,14 @@ const Footer = () => {
                     <li>
                       <a href="/led-lighting">LED Lighting</a>
                     </li>
+                    <li>
+                      <a href="/solar-guide-and-flyer.pdf">CEC GUIDELINES</a>
+                    </li>
+                    <li>
+                      <a href="/approved-solar-retailer-consumer-flyer.pdf">
+                        Approved Solar Retailer Consumer Flyer
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </Col>
