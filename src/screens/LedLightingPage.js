@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "../styles/ledlighting.css";
 
 const LedLightingPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <Container>
       <div className="ledlighting">

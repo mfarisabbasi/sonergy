@@ -32,7 +32,7 @@ const SectionFour = () => {
                 <RiTeamFill size={50} color={"#ff9304"} />
               </div>
               <h3>Meet Our Team</h3>
-              <p>Book a call on our website or (+321) 456 78 901</p>
+              <p>Book a call on our website or +61-434130177</p>
             </div>
           </Col>
           <Col className="text-center" xs={12} sm={12} md={12} lg={4} xl={4}>

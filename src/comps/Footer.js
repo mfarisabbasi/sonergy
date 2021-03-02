@@ -29,13 +29,7 @@ const Footer = () => {
                     <i className="fab fa-facebook"></i>
                   </span>
                   <span>
-                    <i className="fab fa-twitter"></i>
-                  </span>
-                  <span>
-                    <i className="fab fa-linkedin"></i>
-                  </span>
-                  <span>
-                    <i className="fab fa-youtube"></i>
+                    <i className="fab fa-whatsapp"></i>
                   </span>
                 </div>
               </Col>
@@ -58,7 +52,7 @@ const Footer = () => {
                       <a href="/contact-us">Contact Us</a>
                     </li>
                     <li>
-                      <a href="/solar-systems">Solar System</a>
+                      <a href="/solar-system">Solar System</a>
                     </li>
                     <li>
                       <a href="/led-lighting">LED Lighting</a>
