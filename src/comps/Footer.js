@@ -32,6 +32,12 @@ const Footer = () => {
                     <i className="fab fa-whatsapp"></i>
                   </span>
                 </div>
+                <div className="clean_energy">
+                  <img
+                    src="https://res.cloudinary.com/dvwcygw04/image/upload/v1614863709/Sonergy/cleanenergycouncil_gdano8.webp"
+                    alt="sonergy"
+                  ></img>
+                </div>
               </Col>
               <Col
                 className="text-center "
