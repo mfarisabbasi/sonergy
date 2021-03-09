@@ -7,6 +7,8 @@ import ContactPage from "./screens/ContactPage";
 import AboutUsPage from "./screens/AboutUsPage";
 import SolarSystemPage from "./screens/SolarSystemPage";
 import LedLightingPage from "./screens/LedLightingPage";
+import PrivacyPolicyPage from "./screens/PrivacyPolicyPage";
+import TermsAndConditionsPage from "./screens/TermsAndConditionsPage";
 import Footer from "./comps/Footer";
 import GetAQuote from "./comps/GetAQuote";
 import NotFoundPage from "./screens/NotFoundPage";
@@ -18,6 +20,8 @@ const App = () => {
       <Header />
       <Switch>
         <Route path="/" component={LandingPage} exact />
+        <Route path="/tos" component={TermsAndConditionsPage} />
+        <Route path="/privacy-policy" component={PrivacyPolicyPage} />
         <Route path="/contact-us" component={ContactPage} />
         <Route path="/about-us" component={AboutUsPage} />
         <Route path="/led-lighting" component={LedLightingPage} />

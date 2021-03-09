@@ -109,8 +109,11 @@ const Footer = () => {
                 &copy; Copyrights 2021 <span>SONERGY.</span> All Rights Reserved{" "}
                 <br />
                 ABN 78 191 155 326{" "}
-                <a className="footer-bottom-a" href="/">
+                <a className="footer-bottom-a" href="/privacy-policy">
                   | Privacy Policy |
+                </a>{" "}
+                <a className="footer-bottom-a" href="/tos">
+                  | Terms And Conditions |
                 </a>{" "}
                 <br />
                 Developed By{" "}
