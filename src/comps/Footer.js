@@ -113,7 +113,7 @@ const Footer = () => {
                   | Privacy Policy |
                 </a>{" "}
                 <a className="footer-bottom-a" href="/tos">
-                  | Terms And Conditions |
+                  Terms And Conditions |
                 </a>{" "}
                 <br />
                 Developed By{" "}
