@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "../styles/ledlighting.css";
 
 const LedLightingPage = () => {
@@ -22,7 +23,11 @@ const LedLightingPage = () => {
           src="https://res.cloudinary.com/dvwcygw04/image/upload/v1615969429/Sonergy/led_ck3yne.webp"
           alt=""
         />
+        <Link to="/contact-us" class="bottom-right">
+          Contact Us
+        </Link>
       </div>
+
       <Container>
         <Row>
           <Col xs={12} sm={12} md={12} lg={12} xl={12}>
@@ -38,14 +43,14 @@ const LedLightingPage = () => {
                 tube producing roughly a similar measure of enlightenment (1,700
                 Lumens) thus saving you 65% on lighting costs.
               </p>
-              <br />{" "}
+
               <p>
                 A standard 400 watts highbay can be supplanted with a 100 to 150
                 watts led highbay producing around a similar measure of
                 brightening (20,000 Lumens) thus saving you 64% on lighting
                 costs.
               </p>
-              <br />{" "}
+
               <p>
                 A 35 watts halogen downlight can be supplanted with a 6 watts
                 led creating roughly a similar measure of enlightenment (450

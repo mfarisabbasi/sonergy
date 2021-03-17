@@ -107,27 +107,25 @@
   color: white;
   border: 1px solid white;
 }
-#commercial {
-  margin-top: 8rem;
-}
-#commercial h3 {
+.solar-contact-button {
+  background-color: #ff9304 !important;
+  padding: 10px 30px;
+  color: white !important;
+  border: 1px solid white !important;
   font-weight: bold;
+  transition: background-color 0.4s, color 0.4s, border 0.4s;
 }
-#residential {
-  margin-top: 5rem;
-}
-#residential h3 {
-  font-weight: bold;
-}
-#battery {
-  margin-top: 5rem;
-}
-#battery h3 {
-  font-weight: bold;
+.solar-contact-button:hover {
+  background-color: white !important;
+  color: #ff9304 !important;
+  border: 1px solid #ff9304 !important;
 }
 @media screen and (max-width: 992px) {
   .solarbox-middle {
     margin: 2rem 0;
     transform: scale(1);
+  }
+  .solar-contact-button {
+    display: none;
   }
 }

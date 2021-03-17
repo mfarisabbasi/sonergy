@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "../styles/solarsystem.css";
 import { BsBuilding, BsBatteryCharging, BsHouseFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const SolarSystemPage = () => {
   const [showCommercial, setShowCommercial] = useState(false);
@@ -113,6 +114,15 @@ const SolarSystemPage = () => {
             )}
           </Col>
         </Row>
+        <div className="mt-5">
+          <Row>
+            <Col className="text-center">
+              <Link to="contact-us" className="solar-contact-button">
+                Contact Us
+              </Link>
+            </Col>
+          </Row>
+        </div>
       </div>
     </Container>
   );
