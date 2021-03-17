@@ -9,6 +9,41 @@
   border-radius: 10px;
   background-color: #ff9304;
 }
+.contentbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #ff9304;
+  color: white;
+  opacity: 0;
+  animation-name: fade;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+}
+.contentbox-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid #ff9304;
+  color: #ff9304;
+  opacity: 0;
+  animation-name: fade;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .solarbox-middle {
   background-color: white;
   border: 2px solid #ff9304;
@@ -29,7 +64,7 @@
   border-radius: 50%;
   margin-top: 5px;
 }
-.solarbox-middle-button {
+.solarbox-middle button {
   background-color: #ff9304 !important;
   padding: 10px 20px;
   color: white !important;
@@ -38,7 +73,7 @@
   border-radius: 15px;
   transition: background-color 0.4s, color 0.4s, border 0.4s;
 }
-.solarbox-middle-button:hover {
+.solarbox-middle button:hover {
   background-color: white !important;
   color: #ff9304 !important;
   border: 1px solid #ff9304 !important;
@@ -58,7 +93,7 @@
   border-radius: 50%;
   margin-top: 5px;
 }
-.solarbox-button {
+.solarbox button {
   background-color: white;
   padding: 10px 20px;
   color: #ff9304;
@@ -67,7 +102,7 @@
   border-radius: 15px;
   transition: background-color 0.4s, color 0.4s, border 0.4s;
 }
-.solarbox-button:hover {
+.solarbox button:hover {
   background-color: #ff9304;
   color: white;
   border: 1px solid white;

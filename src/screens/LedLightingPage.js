@@ -8,14 +8,22 @@ const LedLightingPage = () => {
   });
 
   return (
-    <Container>
-      <div className="ledlighting">
+    <div className="ledlighting">
+      <Container>
         <Row>
           <Col className="text-center">
             <h1>LED Lighting</h1>
             <span>______</span>
           </Col>
         </Row>
+      </Container>
+      <div className="cover">
+        <img
+          src="https://res.cloudinary.com/dvwcygw04/image/upload/v1615969429/Sonergy/led_ck3yne.webp"
+          alt=""
+        />
+      </div>
+      <Container>
         <Row>
           <Col xs={12} sm={12} md={12} lg={12} xl={12}>
             <div className="ledlighting-content">
@@ -46,8 +54,8 @@ const LedLightingPage = () => {
             </div>
           </Col>
         </Row>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 };
 

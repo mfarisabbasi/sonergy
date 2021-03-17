@@ -12,5 +12,15 @@
   margin-top: 20px;
   font-size: 1.4rem;
   padding: 25px;
-  box-shadow: 5px 10px 8px 10px #c4c4c4;
+}
+
+.cover img {
+  width: 100%;
+  max-height: 90vh;
+}
+@media screen and (max-width: 991px) {
+  .cover img {
+    width: 100%;
+    max-height: 50vh;
+  }
 }
