@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "../styles/solarsystem.css";
 import { BsBuilding, BsBatteryCharging, BsHouseFill } from "react-icons/bs";
