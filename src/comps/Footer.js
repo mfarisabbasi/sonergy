@@ -26,10 +26,28 @@ const Footer = () => {
                 </div>
                 <div className="footer-social">
                   <span>
-                    <i className="fab fa-facebook"></i>
+                    <a href="https://www.facebook.com/Sonergy-105066204734018">
+                      <i
+                        className="fab fa-facebook-square
+"
+                      ></i>
+                    </a>
                   </span>
                   <span>
-                    <i className="fab fa-whatsapp"></i>
+                    <a
+                      target="no_blank"
+                      href="https://api.whatsapp.com/send/?phone=610434130177&text=Hi%2C+I%27m+interested+in+your+services&app_absent=0"
+                    >
+                      <i className="fab fa-whatsapp"></i>
+                    </a>
+                  </span>
+                  <span>
+                    <a href="https://pk.linkedin.com/company/sonergy">
+                      <i
+                        className="fab fa-linkedin
+"
+                      ></i>
+                    </a>
                   </span>
                 </div>
                 <div className="clean_energy">
